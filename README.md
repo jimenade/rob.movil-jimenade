@@ -16,7 +16,5 @@ At the begining I chose to read the laser distance values in the 75º to 105º r
 So for solve that problem y decided to change the range, so now my vacuum sense form 65º to 115º, in total 50º.
 For preventing get stucked I also decided that the spiral movement and the turn shold have opposite turning direction, the turn is to the left and the spiral turns to the right.
 
-- For the turning I used a random time between 0 and 0.5 secs to turn.
-- For changing the modes of the robot (forward, turn and spiral) I created a function where the new state is the param and with nested if-else the vacuum chooses what to do.
-Doing the things i said before my robot vacuums around 70% of the house in approximately 20 minutes.
-![image](https://github.com/jimenade/rob.movil-jimenade/assets/102520569/ab94f4b0-ff1d-4e6d-88a2-3ea34a8ce77a)
+- For doing the turn and prevent the vacuum getting stucked I did 2 nested for if loops and check in them the values of the 2 ranges I didn´t checked before to know if the vacuum is in a corner. If is in a corner i created another status where the robot move backwards and turn to the left 
+- For changing the modes of the robot (forward, turn, turn and backwards and spiral) I created a function where the new state is the param and with nested if-else the vacuum chooses what to do.
