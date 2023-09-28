@@ -16,5 +16,8 @@ At the begining I chose to read the laser distance values in the 75º to 105º r
 So for solve that problem y decided to change the range, so now my vacuum sense form 65º to 115º, in total 50º.
 For preventing get stucked I also decided that the spiral movement and the turn shold have opposite turning direction, the turn is to the left and the spiral turns to the right.
 
-- For doing the turn and prevent the vacuum getting stucked I did 2 nested for if loops and check in them the values of the 2 ranges I didn´t checked before to know if the vacuum is in a corner. If is in a corner i created another status where the robot move backwards and turn to the left 
+- For doing the turn and prevent the vacuum getting stucked I did 2 nested for if loops and check in them the values of the 2 ranges I didn´t checked before to know if the vacuum is in a corner. If is in a corner I created another status where the robot move backwards and turn to the left. 
 - For changing the modes of the robot (forward, turn, turn and backwards and spiral) I created a function where the new state is the param and with nested if-else the vacuum chooses what to do.
+
+Here is how the robot behave in 3 minutes test
+[Screencast from 09-28-2023 09:59:14 AM.webm](https://github.com/jimenade/rob.movil-jimenade/assets/102520569/bc16a8ce-e185-4889-ade3-cb6f65996902)
