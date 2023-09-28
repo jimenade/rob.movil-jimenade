@@ -14,7 +14,7 @@ I decided to do a while loop to read all the time the distance values of the las
 
 At the begining I chose to read the laser distance values in the 75º to 105º range so the vacuum could sense 30º in front of it, but then I realized with those values the robot got stucked easily in the chairs, the coffee table in the dinning room and with the tables beside the bed.
 So for solve that problem y decided to change the range, so now my vacuum sense form 65º to 115º, in total 50º.
-For preventing get stucked I also decided that the spiral movement and the turn shold have opposite turning direction, the turn is to the left and the spiral turns to the right.
+For preventing get stucked I also decided that the spiral movement and the turn should have opposite turning direction, the turn is to the left and the spiral turns to the right.
 
 - For doing the turn and prevent the vacuum getting stucked I did 2 nested for if loops and check in them the values of the 2 ranges I didn´t checked before to know if the vacuum is in a corner. If is in a corner I created another status where the robot move backwards and turn to the left. 
 - For changing the modes of the robot (forward, turn, turn and backwards and spiral) I created a function where the new state is the param and with nested if-else the vacuum chooses what to do.
