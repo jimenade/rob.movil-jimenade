@@ -1,5 +1,5 @@
 # Mobile robotics -jimenade
-## 1st proyect
+## 1st project
 The assignment for this 1st project is to program an autonomous vacuum in python, only using the laser to detect objects the vacuum has.
 I did this project using the website Unibotics, which has the screen divided in 4 parts, the 1st one is de left and up corner, where you can write the code, the left down is a terminal window,like Unix terminal, the right up corner is a map of the house, and the last one, the right down corner is like an external camera to see what the robot does.
 The libraries I am using for this project are: 
@@ -21,3 +21,6 @@ For preventing get stucked I also decided that the spiral movement and the turn 
 
 Here is how the robot behave in 3 minutes test: 
 [Vacuum](https://github.com/jimenade/rob.movil-jimenade/assets/102520569/bc16a8ce-e185-4889-ade3-cb6f65996902)
+
+
+## The rest of the projects are in the wiki!!
